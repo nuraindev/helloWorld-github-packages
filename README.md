@@ -1,4 +1,4 @@
-# @nuraindev/github-packages
+# @nuraindev/hello-world-button
 
 A React Native HelloWorld button component published via GitHub Packages.
 
@@ -13,13 +13,13 @@ Add the GitHub Packages registry to your project's `.npmrc`:
 Then install:
 
 ```bash
-npm install @nuraindev/github-packages
+npm install @nuraindev/hello-world-button
 ```
 
 ## Usage
 
 ```tsx
-import { HelloWorldButton } from "@nuraindev/github-packages";
+import { HelloWorldButton } from "@nuraindev/hello-world-button";
 
 export default function App() {
   return <HelloWorldButton />;
