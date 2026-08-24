@@ -1,5 +1,5 @@
 {
-  "name": "@nuraindev/github-packages",
+  "name": "@nuraindev/hello-world-button",
   "version": "1.0.0",
   "description": "A React Native HelloWorld button component",
   "main": "dist/index.js",
