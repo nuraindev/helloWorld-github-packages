@@ -1,4 +1,4 @@
-name: Publish Package to GitHub Packages
+name: Publish Packages to GitHub Packages
 
 on:
   release:
@@ -21,6 +21,9 @@ jobs:
 
       - run: npm install
       - run: npm run build
-      - run: npm publish
+      - run: npm publish --workspace packages/hello-world-button
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: npm publish --workspace packages/red-button
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
