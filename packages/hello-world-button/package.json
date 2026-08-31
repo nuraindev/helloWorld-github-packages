@@ -1,6 +1,6 @@
 {
   "name": "@nuraindev/hello-world-button",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A React Native HelloWorld button component",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
