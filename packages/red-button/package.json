@@ -2,6 +2,10 @@
   "name": "@nuraindev/red-button",
   "version": "1.0.3",
   "description": "A React Native Red button component",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nuraindev/helloWorld-github-packages.git"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [

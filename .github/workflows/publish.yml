@@ -24,8 +24,8 @@ jobs:
 
       - name: Set package versions
         run: |
-          npm version "$PKG_VERSION" --no-git-tag-version --workspace packages/hello-world-button
-          npm version "$PKG_VERSION" --no-git-tag-version --workspace packages/red-button
+          npm version "$PKG_VERSION" --no-git-tag-version --allow-same-version --workspace packages/hello-world-button
+          npm version "$PKG_VERSION" --no-git-tag-version --allow-same-version --workspace packages/red-button
 
       - run: npm install
       - run: npm run build
